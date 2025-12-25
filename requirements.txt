@@ -1,1 +1,28 @@
-langchain
+# Core LangChain (split packages – REQUIRED)
+langchain==0.2.14
+langchain-core==0.2.38
+langchain-community==0.2.12
+langchain-experimental==0.0.64
+
+# Google Gemini
+langchain-google-genai==1.0.8
+google-generativeai==0.7.2
+
+# Environment & UI
+python-dotenv==1.0.1
+streamlit==1.36.0
+
+# Tokenization
+tiktoken==0.7.0
+
+# Vector DBs
+faiss-cpu==1.8.0
+chromadb==0.5.5
+sentence-transformers==3.0.1
+
+# Databases
+mysql-connector-python==9.0.0
+pymysql==1.1.1
+
+# Protobuf (VERY IMPORTANT for Gemini)
+protobuf==4.25.3
